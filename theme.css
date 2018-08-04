@@ -1,0 +1,163 @@
+body{
+  background-color: white;
+  font-family: 'Montserrat', sans-serif;
+  font-weight:100;
+}
+p{
+  font-weight: 400;
+}
+div{
+  padding: 10px;
+  border-color: rgb(240, 240, 240);
+}
+h1, h2, h3, h4, h5, h6{
+font-weight: bold;
+text-transform: uppercase;
+}
+h1, h2, h3{
+  letter-spacing: 4px;
+}
+h4, h5, h6{
+  letter-spacing: 1px;
+}
+.thumbnail{
+  padding: 30px;
+  margin: 50px;
+}
+div.header {
+  display:table;
+  table-layout: fixed;
+  width: 100%;
+}
+div.header span {
+  display:table-cell;
+  text-align:center;
+  border: none;
+  letter-spacing: 2px;
+  font-weight: 300;
+}
+.featured-image{
+  margin-bottom: 20px;
+  object-fit: cover;
+  max-height: 300px;
+  width: 100%
+}
+.img-thumbnail{
+  margin-bottom: 15px;
+  object-fit: cover;
+  max-height: 150px;
+  width: 100%
+}
+.carousel-photo {
+  object-fit: cover;
+  height: 40vw;
+  min-height: 300px;
+  max-height: 80vh;
+  width: 100%
+}
+.col-sm-4 h6{
+  text-align: center;
+}
+.landing-image {
+  object-fit: cover; 
+  width: 100%; 
+  height: 100vh;
+}
+.headline {
+  margin: auto; 
+  position: absolute; 
+  top: 30vh; 
+  left: 10vw; 
+  font-size: 5vw;
+  color: dark-grey; 
+  letter-spacing: 15px; 
+  font-weight: bold;
+}
+.subheadline {
+  margin: auto; 
+  position: absolute; 
+  top: 42vh; 
+  left: 10.5vw; 
+  font-size: 2vw;
+  color: drk-grey; 
+  letter-spacing: 15px; 
+  font-weight: bold;
+}
+.title-button {
+  position: absolute;
+  top: 50vh;
+  left: 10.5vw;
+}
+.fill {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden
+}
+.fill img {
+    flex-shrink: 0;
+    width: 100%;
+    max-width: 500px;
+    widht: auto;
+}
+.profile-pic{
+    width: 20vw;
+    min-width: 200px;
+    max-width: 300px;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+@media only screen and (max-width: 767px) {
+  div.header{
+    display:table;
+      table-layout: auto;
+      width: 100%;
+  }
+  .headline {
+    font-size: 38.35px;
+  }
+  .subheadline {
+    font-size: 15.34px;
+  }
+  .thumbnail{
+  margin: 10px;
+  }
+  .profile-pic{
+    width: 70vw;
+    max-width: 500px;
+    height: auto;
+  }
+}
+
+@media only screen and (max-width: 389px) {
+  .headline {
+    top: 22vh;
+    line-height: 50px;
+  }
+  .subheadline {
+    top: 42vh;
+    line-height: 30px;
+  }
+  .title-button {
+    top: 56vh;
+  }
+  div.header span {
+    letter-spacing: 1px;
+    font-size: 12px;
+  }
+}
+
+@media only screen and (min-width: 1000px) {
+  .headline {
+    font-size: 50px;
+  }
+  .subheadline {
+    font-size: 20px;
+  }
+  .thumbnail{
+  padding: 50px;
+  margin: 70px;
+  }
+}
