@@ -65,12 +65,12 @@ div.header span {
 }
 .headings {
   padding: 100px;
-}
-.headline {
-  margin: auto; 
   position: absolute; 
   top: 30vh; 
   left: 10vw; 
+}
+.headline {
+  margin: auto;
   font-size: 5vw;
   color: dark-grey; 
   letter-spacing: 15px; 
@@ -78,9 +78,6 @@ div.header span {
 }
 .subheadline {
   margin: auto; 
-  position: absolute; 
-  top: 42vh; 
-  left: 10.5vw; 
   font-size: 2vw;
   color: drk-grey; 
   letter-spacing: 15px; 
