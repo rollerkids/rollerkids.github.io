@@ -64,10 +64,10 @@ div.header span {
   height: 100vh;
 }
 .headings {
-  padding: 100px;
   position: absolute; 
   top: 30vh; 
   left: 10vw; 
+  line-height: 1.5;
 }
 .headline {
   margin: auto;
