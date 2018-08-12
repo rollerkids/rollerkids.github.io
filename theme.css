@@ -85,8 +85,8 @@ div.header span {
 }
 .title-button {
   position: absolute;
-  top: 50vh;
-  left: 10.5vw;
+  top: 26vh;
+  left: 1vw;
 }
 .fill {
   display: flex;
@@ -116,10 +116,10 @@ div.header span {
       width: 100%;
   }
   .headline {
-    font-size: 38.35px;
+    font-size: 24px;
   }
   .subheadline {
-    font-size: 15.34px;
+    font-size: 12px;
   }
   .thumbnail{
   margin: 10px;
@@ -141,7 +141,7 @@ div.header span {
     line-height: 30px;
   }
   .title-button {
-    top: 56vh;
+    top: 30vh;
   }
   div.header span {
     letter-spacing: 1px;
