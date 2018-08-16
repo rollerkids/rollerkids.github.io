@@ -36,12 +36,7 @@ div.header span {
   letter-spacing: 2px;
   font-weight: 300;
 }
-.featured-image{
-  margin-bottom: 20px;
-  object-fit: cover;
-  max-height: 300px;
-  width: 100%
-}
+
 .img-thumbnail{
   margin-bottom: 15px;
   object-fit: cover;
@@ -58,7 +53,7 @@ div.header span {
 .col-sm-4 h6{
   text-align: center;
 }
-.landing-image {
+.featured-image {
   object-fit: cover; 
   width: 100%; 
   height: 100vh;
