@@ -79,30 +79,6 @@ div.header span {
   transform: translate(-50%, -50%);
 }
 
-.headings {
-  position: absolute; 
-  top: 30vh; 
-  left: 10vw; 
-  line-height: 1.5;
-}
-.headline {
-  margin: auto;
-  font-size: 5vw;
-  color: dark-grey; 
-  letter-spacing: 15px; 
-  font-weight: bold;
-}
-.subheadline {
-  margin: auto; 
-  font-size: 2vw;
-  color: drk-grey; 
-  letter-spacing: 15px; 
-  font-weight: bold;
-}
-.title-button {
-  position: absolute;
-  top: 26vh;
-  left: 1vw;
 }
 .fill {
   display: flex;
@@ -131,12 +107,7 @@ div.header span {
       table-layout: auto;
       width: 100%;
   }
-  .headline {
-    font-size: 24px;
-  }
-  .subheadline {
-    font-size: 12px;
-  }
+  
   .thumbnail{
   margin: 10px;
   }
@@ -145,23 +116,9 @@ div.header span {
     max-width: 500px;
     height: auto;
   }
-}
-
-@media only screen and (max-width: 389px) {
-  .headline {
-    top: 22vh;
-    line-height: 50px;
-  }
-  .subheadline {
-    top: 42vh;
-    line-height: 30px;
-  }
-  .title-button {
-    top: 30vh;
-  }
-  div.header span {
-    letter-spacing: 1px;
-    font-size: 12px;
+  
+  .header a {
+  	font-size: 10px;
   }
 }
 
